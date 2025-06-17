@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "SignVerse",
+    "slug": "signverse-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/0mY--tYd.jpg",
+    "scheme": "signverse",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/0mY--tYd.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/0mY--tYd.jpg"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser", "expo-camera", "expo-av"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
